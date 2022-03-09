@@ -21,7 +21,7 @@ export const networkConfigs = {
     blockExplorerUrl: "https://goerli.etherscan.io/",
   },
   "0x539": {
-    chainName: "Ganache",
+    chainName: "Local Chain",
     currencyName: "ETH",
     currencySymbol: "ETH",
     rpcUrl: "http://127.0.0.1:7545",

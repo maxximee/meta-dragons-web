@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/meta-dragons.iml" filepath="$PROJECT_DIR$/meta-dragons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/meta-dragons.iml" filepath="$PROJECT_DIR$/.idea/meta-dragons.iml" />
     </modules>
   </component>
 </project>
