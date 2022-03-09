@@ -75,11 +75,7 @@ const App = ({ isServerInfo }) => {
       <Layout style={{ height: "100vh", overflow: "auto" }}>
         <Router>
           <Header style={styles.header}>
-            <img
-                src={"Layer1.png"}
-                alt="logo"
-                style={{ height: "35px" }}
-            />
+            <img src={"Layer1.png"} alt="logo" style={{ height: "35px" }} />
             <MenuItems />
             <div style={styles.headerRight}>
               <Chains />

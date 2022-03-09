@@ -1,73 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e3fc15-d6ff-430d-a290-bb191f43529a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/meta-dragons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Uploader/Updater.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Uploader/Uploader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Uploader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="67e3fc15-d6ff-430d-a290-bb191f43529a" name="Changes" comment="minter and getter working">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta-dragons.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Account.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Address/Address.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Address/Address.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddressInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddressInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blockie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blockie.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chains/Chains.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chains/Chains.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chains/Logos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chains/Logos.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contract/Contract.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contract/Contract.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ERC20Balance.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ERC20Balance.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ERC20Transfers/ERC20Transfers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ERC20Transfers/ERC20Transfers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ERC20Transfers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ERC20Transfers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InchDex/InchDex.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InchDex/components/InchModal.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InchDex/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NFTBalance.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NFTBalance.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NFTMarketTransactions.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NFTTokenIds.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NativeBalance.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NativeBalance.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NativeTransactions/NativeTransactions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NativeTransactions/NativeTransactions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NativeTransactions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NativeTransactions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NativeTransactions/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NativeTransactions/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QuickStart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuickStart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ramper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ramper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchCollections.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TokenPrice.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TokenPrice.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Wallet/Wallet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Wallet/Wallet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Wallet/components/AssetSelector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Wallet/components/AssetSelector.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Wallet/components/Assets.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Wallet/components/Transfer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Wallet/components/Transfer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contracts/contractInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/contractInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contracts/marketplaceBoilerplate.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/collections.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/formatters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/formatters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/networks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/networks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useChain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useERC20Balance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useERC20Balance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useERC20Transfers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useERC20Transfers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useInchDex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useInchDex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useNFTBalance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useNFTTokenIds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useNFTTransfers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useNativeBalance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useNativeTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useNativeTransactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useWeb3Contract.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/MoralisDappProvider/MoralisDappProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/MoralisDappProvider/context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hashtro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hashtro.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Uploader/Uploader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader/Uploader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/truffle-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +48,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646802286066</updated>
-      <workItem from="1646802287718" duration="5911000" />
+      <workItem from="1646802287718" duration="6342000" />
     </task>
+    <task id="LOCAL-00001" summary="minter and getter working">
+      <created>1646815887662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646815887662</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +73,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minter and getter working" />
+    <option name="LAST_COMMIT_MESSAGE" value="minter and getter working" />
   </component>
 </project>

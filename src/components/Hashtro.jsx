@@ -85,7 +85,6 @@ export default function Hashtro({ isServerInfo }) {
   //   }
   // }
 
-
   const messageMarkup = (
     <Box>
       <Alert status="success">
@@ -140,12 +139,12 @@ export default function Hashtro({ isServerInfo }) {
 
       return (
         <VStack>
-          <Box boxSize='sm'>
+          <Box boxSize="sm">
             <Image src={hashtroData.image} alt={hashtroData.name} />
           </Box>
           <Box mt={4} mb={4}>
             <Heading as="h4" size="md">
-              {hashtroData.name}  #{hashtroData.id}
+              {hashtroData.name} #{hashtroData.id}
             </Heading>
           </Box>
           <Box>

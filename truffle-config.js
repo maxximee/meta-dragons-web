@@ -1,7 +1,8 @@
 // Initialize HDWalletProvider
 const HDWalletProvider = require("truffle-hdwallet-provider");
 // Set your own mnemonic here
-const mnemonic = "rhythm other retire picnic believe wild style useful dragon tongue fabric dry";
+const mnemonic =
+  "rhythm other retire picnic believe wild style useful dragon tongue fabric dry";
 
 module.exports = {
   // Uncommenting the defaults below
@@ -22,11 +23,14 @@ module.exports = {
       // Special function to setup the provider
       provider: function () {
         // Setting the provider with the Infura Rinkeby address and Token
-        return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/abc77529db404a6797d4cb290899eac2")
+        return new HDWalletProvider(
+          mnemonic,
+          "https://rinkeby.infura.io/v3/abc77529db404a6797d4cb290899eac2",
+        );
       },
       // Network id is 4 for Rinkeby
-      network_id: 4
-    }
+      network_id: 4,
+    },
   },
   //
   // Truffle DB is currently disabled by default; to enable it, change enabled:
@@ -51,7 +55,7 @@ module.exports = {
   // },
   compilers: {
     solc: {
-      version: "^0.8.4"
-    }
-  }
+      version: "^0.8.4",
+    },
+  },
 };

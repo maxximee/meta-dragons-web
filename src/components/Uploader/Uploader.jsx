@@ -539,7 +539,9 @@ export default function Uploader(_isAuthenticated) {
             console.log("IPFS ARRAY:", ipfsArray);
             // once all promises then upload IPFS object metadata array
             Promise.all(promiseArray).then(() => {
-              console.log("posting json to : " + API_URL + " with key " + API_KEY);
+              console.log(
+                "posting json to : " + API_URL + " with key " + API_KEY,
+              );
               axios
                 .post(API_URL, ipfsArray, {
                   headers: {
