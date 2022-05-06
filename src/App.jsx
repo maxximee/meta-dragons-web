@@ -66,7 +66,11 @@ const App = ({ isServerInfo }) => {
   useEffect(() => {
     const connectorId = window.localStorage.getItem("connectorId");
     if (isAuthenticated && !isWeb3Enabled && !isWeb3EnableLoading)
-      enableWeb3({ chainId: 80001, privateKey: "d23da211fdc31983b9d3e82b1dfc4999ccda2e544a8aa6bb89c87c720d754f58" });
+      enableWeb3({
+        chainId: 80001,
+        privateKey:
+          "d23da211fdc31983b9d3e82b1dfc4999ccda2e544a8aa6bb89c87c720d754f58",
+      });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isAuthenticated, isWeb3Enabled]);
 
