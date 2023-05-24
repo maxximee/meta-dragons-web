@@ -25,7 +25,6 @@ export default function Updater() {
   let totalFiles = 0;
   const form = useRef();
   const handleSubmit = async (e, a) => {
-
     //console.log("FORM INPUT:", e);
     //await Moralis.start({ serverUrl: API_URL, appId: API_ID});
     // TODO find a way to not have to validate each request
@@ -54,71 +53,84 @@ export default function Updater() {
     //   await mint("QmPggWxZGSrXMtYvoDvZ9GyJB4gf79bVskLKGfEcGqALRn", i, "epic", Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250);
     // }
 
-    await mint("QmTtGo4TiKAmziHvourj7JPCFA8Y2eVPxdBsEsoTkgsKRx/yt_DA1iZslZpA", 998, "epic", Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250);
-    await mint("QmTtGo4TiKAmziHvourj7JPCFA8Y2eVPxdBsEsoTkgsKRx/yt_DA1iZslZpA", 999, "epic", Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250,Math.floor(Math.random() * 90) + 250);
-
+    await mint(
+      "QmTtGo4TiKAmziHvourj7JPCFA8Y2eVPxdBsEsoTkgsKRx/yt_DA1iZslZpA",
+      998,
+      "epic",
+      Math.floor(Math.random() * 90) + 250,
+      Math.floor(Math.random() * 90) + 250,
+      Math.floor(Math.random() * 90) + 250,
+      Math.floor(Math.random() * 90) + 250,
+    );
+    await mint(
+      "QmTtGo4TiKAmziHvourj7JPCFA8Y2eVPxdBsEsoTkgsKRx/yt_DA1iZslZpA",
+      999,
+      "epic",
+      Math.floor(Math.random() * 90) + 250,
+      Math.floor(Math.random() * 90) + 250,
+      Math.floor(Math.random() * 90) + 250,
+      Math.floor(Math.random() * 90) + 250,
+    );
   };
 
-  async function mint(rarityUri, dragonId, rarityString, tps, det,yld,acc) {
+  async function mint(rarityUri, dragonId, rarityString, tps, det, yld, acc) {
     let options = {
       contractAddress: "0x9523214EC3658931ecEA366033E22e9F2eC4c148",
       functionName: "mintDragon",
       abi: [
         {
-          "inputs": [
+          inputs: [
             {
-              "internalType": "string",
-              "name": "_tokenURI",
-              "type": "string"
+              internalType: "string",
+              name: "_tokenURI",
+              type: "string",
             },
             {
-              "internalType": "uint256",
-              "name": "_bloodType",
-              "type": "uint256"
+              internalType: "uint256",
+              name: "_bloodType",
+              type: "uint256",
             },
             {
-              "internalType": "uint256",
-              "name": "_topSpeed",
-              "type": "uint256"
+              internalType: "uint256",
+              name: "_topSpeed",
+              type: "uint256",
             },
             {
-              "internalType": "uint256",
-              "name": "_acceleration",
-              "type": "uint256"
+              internalType: "uint256",
+              name: "_acceleration",
+              type: "uint256",
             },
             {
-              "internalType": "uint256",
-              "name": "_yield",
-              "type": "uint256"
+              internalType: "uint256",
+              name: "_yield",
+              type: "uint256",
             },
             {
-              "internalType": "uint256",
-              "name": "_diet",
-              "type": "uint256"
+              internalType: "uint256",
+              name: "_diet",
+              type: "uint256",
             },
             {
-              "internalType": "string",
-              "name": "_rarity",
-              "type": "string"
-            }
+              internalType: "string",
+              name: "_rarity",
+              type: "string",
+            },
           ],
-          "name": "mintDragon",
-          "outputs": [],
-          "stateMutability": "payable",
-          "type": "function"
+          name: "mintDragon",
+          outputs: [],
+          stateMutability: "payable",
+          type: "function",
         },
       ],
       params: {
         _tokenURI:
-          "https://meta-dragons.infura-ipfs.io/ipfs/" +
-          rarityUri +
-          ".json",
+          "https://meta-dragons.infura-ipfs.io/ipfs/" + rarityUri + ".json",
         _bloodType: dragonId,
         _topSpeed: tps,
         _acceleration: acc,
         _yield: yld,
         _diet: det,
-        _rarity: rarityString
+        _rarity: rarityString,
       },
     };
     await Moralis.executeFunction(options);
