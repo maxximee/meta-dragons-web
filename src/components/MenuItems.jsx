@@ -22,10 +22,10 @@ function MenuItems() {
         <NavLink to="/quickstart">🚀 Play</NavLink>
       </Menu.Item>
       <Menu.Item key="/uploader">
-        <NavLink to="/uploader">⬆️ Uploader</NavLink>
+        <NavLink to="/uploader">⬆ Air Drop</NavLink>
       </Menu.Item>
       <Menu.Item key="/updater">
-        <NavLink to="/updater">🔃 Updater</NavLink>
+        <NavLink to="/updater">🔃 Batch Minter</NavLink>
       </Menu.Item>
       {/*
       <Menu.Item key="/wallet">

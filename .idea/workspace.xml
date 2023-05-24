@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e3fc15-d6ff-430d-a290-bb191f43529a" name="Changes" comment="- batch minter in updater&#10;- metadragon contract">
-      <change afterPath="$PROJECT_DIR$/contracts/MetaDragon.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Uploader/Lister.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/MetaDragon.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/MetaDragon.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuItems.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Uploader/Updater.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader/Updater.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +37,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VSCode_Projects/PCC/pccapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Uploader" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\meta-dragons\src\components\Uploader" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -103,7 +107,12 @@
       <workItem from="1651654350027" duration="2920000" />
       <workItem from="1651714781541" duration="1208000" />
       <workItem from="1651798340403" duration="2442000" />
-      <workItem from="1651806271051" duration="10809000" />
+      <workItem from="1651806271051" duration="11752000" />
+      <workItem from="1652060943358" duration="9512000" />
+      <workItem from="1652088973072" duration="1196000" />
+      <workItem from="1652154065431" duration="2320000" />
+      <workItem from="1652231985025" duration="634000" />
+      <workItem from="1655267437136" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="minter and getter working">
       <created>1646815887662</created>
@@ -126,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651811101175</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- batch minter in updater&#10;- metadragon contract">
+      <created>1651817261998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651817261998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
